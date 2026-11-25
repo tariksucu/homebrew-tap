@@ -15,7 +15,7 @@ cask "converter-studio" do
     end
   end
 
-  depends_on macos: :monterey
+  depends_on macos: :ventura
 
   app "Converter Studio.app"
   binary "#{appdir}/Converter Studio.app/Contents/Resources/bin/converter-studio"
